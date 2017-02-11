@@ -66,3 +66,9 @@ rescue => exception
     puts "NIE MACZUJE"
   end
 end
+
+
+def method_with_explicit_return
+    :a_non_return_value
+    :another_non_return_value
+end
