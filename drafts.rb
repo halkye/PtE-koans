@@ -81,3 +81,11 @@ class AboutConstants
   puts C
   puts ::C
 end
+
+def test_if_then_else_statements
+    if true
+      result = :true_value
+    else
+      result = :false_value
+    end
+end
