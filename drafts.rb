@@ -1,3 +1,14 @@
+#Pytania:
+
+# regexpy (about_regular_expressions)
+# self (about_methods)
+# < i :: (about_constants)
+# :coś (about_control_statements)
+
+
+
+
+
 begin
   {}.fetch(:a)
 rescue => exc
@@ -88,4 +99,49 @@ def test_if_then_else_statements
     else
       result = :false_value
     end
+    puts result
 end
+
+def test_if_then_statements
+    result = :default_value
+    if true
+      result = :true_value
+    end
+end
+
+
+
+class A
+  def abc
+    dodaj obiekt
+    return self
+  end
+
+  def m1
+    m089
+  end
+
+  private
+
+  def m089
+    to_s
+  end
+end
+
+class MySpecialError < RuntimeError
+  end
+
+    result = nil
+    begin
+      fail "Oops"
+    rescue StandardError => ex
+      result = :exception_handled
+    end
+
+
+module Payments
+  class Transaction
+  end
+end
+
+Payments::Transaction
